@@ -1,0 +1,72 @@
+.title-b {
+    font-size: 36px;
+    font-family: UniNeueBook;
+    color: black;
+}
+
+.title-bold {
+    font-family: UniNeueHeavy;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.title-grey {
+    font-family: UniNeue;
+    color: #afafaf;
+    font-size: 16px;
+}
+
+.title-reg {
+    font-family: UniNeue;
+    color: black;
+    font-size: 16px;
+}
+
+.title-white-b {
+    font-size: 16px;
+    font-family: UniNeueHeavy;
+    color: white;
+    text-transform: uppercase;
+}
+
+.title-reg-white {
+    font-family: UniNeue;
+    color: white;
+    font-size: 16px;
+    z-index: 1;
+}
+
+.title-b-white {
+    font-size: 36px;
+    font-family: UniNeueBook;
+    color: white;
+    z-index: 1;
+}
+
+.title-reg-upper {
+    font-family: UniNeue;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.category-map {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.title-bold-blue {
+    font-family: UniNeueHeavy;
+    color: #6f89ff;
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin-top:1rem;
+}
+
+.title-bold-white {
+    font-family: UniNeueHeavy;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
