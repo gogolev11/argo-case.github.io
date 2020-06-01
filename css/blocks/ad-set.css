@@ -1,0 +1,57 @@
+.ad-set-ell {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.ad-set-ell-img {
+    display: block;
+    position: absolute;
+    top:-5rem;
+    left:-8rem;
+}
+
+.ad-set {
+    display: flex;
+    z-index: 2;
+}
+
+.ad-set__pic {
+    margin-top:6rem;
+    margin-right: 12rem;
+}
+
+.ad-set__txt {
+    margin-top:5rem;
+}
+
+.title-reg-white--ad-set {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.title-reg-white--ad-set-desc {
+    line-height: 1.5rem;
+}
+
+.ad-set-ell-sm {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.ad-set-ell-r-img {
+    display: block;
+    position: absolute;
+    top:-45rem;
+    left: -15rem;
+}
+
+.ad-set-ell-l-img {
+    display: block;
+    position: absolute;
+    right: -10rem;
+    top:-27rem;
+}

@@ -1,0 +1,24 @@
+.container__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18bdee;
+    min-height: 3.1rem;
+}
+.container__bottom-cont {
+    max-width: 1170px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-nav__item {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: UniNeue;
+}

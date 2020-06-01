@@ -1,0 +1,51 @@
+.cont-b--region {
+    margin-top:11rem;
+    margin-bottom: 7.687rem;
+}
+
+.title-reg--region {
+    text-align: center;
+    width: 39rem;
+}
+
+.region__img {
+    margin-top: 2.875rem;
+}
+
+.region__location {
+    display: flex;
+    align-items: center;
+    margin-top: 2.875rem;
+    margin-bottom: 2.875rem;
+}
+
+.location__img-block {
+    width: 4.625rem;
+    height: 4.625rem;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 1rem #e7e7e7;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.title-reg--location {
+    display: block;
+    position: relative;
+    width: 28.125rem;
+}
+
+.region-ell {
+    display: block;
+    position: absolute;
+    top:18rem;
+    left: 10rem;
+}
+
+.location__site {
+    z-index: 1;
+    box-shadow: 0 0 1rem #e7e7e7;
+}

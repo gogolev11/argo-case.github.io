@@ -1,0 +1,37 @@
+.total-ell {
+    width: 100%;
+    position: relative;
+    z-index:0;
+}
+
+.total-ell-img {
+    position: absolute;
+    top:-10rem;
+    left: -45rem;
+}
+
+.total-end {
+    z-index: 1;
+    display: flex;
+    margin-top: 2rem;
+    width: 55rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.total-end__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-end__txt{
+    margin-left:1.5rem;
+    font-family: UniNeue;
+    color: white;
+    font-size: 22px;
+}
+
+.total-end-img {
+    z-index: 1;
+}

@@ -1,0 +1,148 @@
+.argo-wallpaper {
+    display: block;
+    position: relative;
+}
+
+.argo-logo {
+    display: block;
+    position: absolute;
+    top:33rem;
+}
+
+.argo__natural {
+    margin-top:7rem;
+    font-size: 16px;
+    font-family: UniNeue;
+}
+
+.backstory-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: UniNeueBook;
+    margin-bottom: 2rem;
+}
+
+.backstory__blue-block {
+    margin-bottom: 2rem;
+}
+
+.backstory {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5.4rem;
+    
+}
+
+.backstory__wh-bef {
+    font-size:16px;
+    color: black;
+    font-family: UniNeueBlack;
+}
+
+.backstory__august {
+    font-size:36px;
+    color: red;
+    font-family: UniNeueBlack;
+    text-transform: uppercase;
+}
+
+.backstory__before {
+    width: 29.4rem;
+    height: 15.6rem;
+    background-color: white;
+    padding-left:1.56rem ;
+    padding-top: 1.56rem;
+    box-shadow:0 0 2rem #eaeaea;
+    border-radius: 0.3rem;
+    z-index: 1;
+}
+
+.before__list {
+    line-height: 2rem;
+    margin-top: 1.5rem;
+}
+
+.before-list__item {
+    position: relative;
+    font-size: 16px;
+    font-family: UniNeue;
+    list-style-type: none;
+    padding-left: 1.3rem;
+}
+
+.before-list__item:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border: solid 2px red;
+    border-radius: 50%;
+    top: 0.8rem;
+    left: 0px;
+    
+}
+
+.backstory__ell {
+    display: block;
+    position: absolute;
+    right: 57rem;
+}
+
+
+.backstory__arrow {
+    display: flex;
+    align-items: center;
+}
+
+.backstory__after {
+    display: block;
+    position: relative;
+    width: 35.6rem;
+    height: 15.6rem;
+    background-color: white;
+    padding-left:1.56rem ;
+    padding-top: 1.56rem;
+    box-shadow:0 0 2rem #eaeaea;
+    border-radius: 0.3rem;
+    z-index: 0;
+}
+
+.backstory__now {
+    font-size:36px;
+    color: #6c86ff;
+    font-family: UniNeueBlack;
+    text-transform: uppercase;
+}
+
+.after__list {
+    line-height: 2rem;
+    margin-top: 1.5rem;
+}
+
+.after-list__item {
+    position: relative;
+    font-size: 16px;
+    font-family: UniNeue;
+    list-style-type: none;
+    padding-left: 1.3rem;
+}
+
+.after-list__item i {
+    color:#6c86ff;
+    font-style: normal;
+}
+
+.after-list__item:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border: solid 2px #6c86ff;
+    border-radius: 50%;
+    top: 0.8rem;
+    left: 0px;
+}
+

@@ -1,0 +1,93 @@
+.photos-ell {
+    display: block;
+    width: 100%;
+    height: 0;
+    position: relative;
+    z-index: 0;
+}
+
+.photos-ell__img {
+    position: absolute;
+    display: block;
+    left:-42rem;
+    top:-6rem;
+}
+
+.photosession {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.photosession-photo {
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redisign__bef-block--photo {
+    text-align: center;
+    width: 23.125rem;
+    height: 23.125rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2rem #e6e6e6;
+}
+
+.redisign__aft-block--photo {
+    box-shadow: 0 0 1.5rem #e6e6e6;
+    margin-right: 1.875rem;
+}
+
+.photosession-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24.375rem;
+    padding-top:9rem;
+}
+
+.competitor {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.treangle-blue--competitor {
+    margin-top:12px;
+    margin-right: 1.4rem;
+}
+
+.competitor__text {
+    width: 304px;
+    line-height: 1.7rem;
+}
+
+.title-reg i {
+    font-style: normal;
+    color: #8499ff;
+}
+
+.title-grey--photosession {
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+}
+
+.slader-dots--photo {
+    width: 48.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dots-list--white .dots-list__item{
+    background-image: url(../../img/icons/dott-white_na.png);
+}
+
+.dots-list--white .dots-list__item:hover {
+    background-image: url(../../img/icons/dott-white_a.png);
+}
+
+.dots-list--white .dots-list__item--active {
+    background-image: url(../../img/icons/dott-white_a.png);
+}

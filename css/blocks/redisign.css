@@ -1,0 +1,116 @@
+.redisign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redisign__cont {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.redisign__bef {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.875rem;
+    align-items: center;
+}   
+
+.redisign__bef-title {
+    color:red;
+    margin-bottom: 1rem;
+}
+
+.redisign__aft-title {
+    color:#15ae12;
+    margin-bottom: 1rem;
+}
+
+.redisign__aft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.redisign__bef-block {
+    display: block;
+    position: relative;
+}
+
+.redisign__aft-block {
+    display: block;
+    position: relative;
+}
+
+.redisign__left-arrow {
+    display: block;
+    position: absolute;
+    top:45%;
+    left: 0.5rem;
+}
+
+.redisign__right-arrow {
+    display: block;
+    position: absolute;
+    top:45%;
+    right: 0.5rem;
+}
+
+.redisign__left-arrow--phone {
+    left:-4rem;
+}
+
+.redisign__right-arrow--phone {
+    right:-4rem;
+}
+
+.redisign__ell {
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+}
+
+.redisign__ell-b {
+    display: block;
+    position: absolute;
+    top:-43rem;
+    left:20.5rem;
+}
+
+.redisign__ell-s {
+    display: block;
+    position: absolute;
+    top:-39rem;
+    left:25.5rem;
+}
+
+.slader-dots {
+    margin-top:2.25rem;
+    width: 6.56rem;
+    margin-bottom:2.25rem;
+}
+
+.dots-list {
+    list-style-type:none;
+    display:flex;
+    justify-content: space-between;
+}
+
+.dots-list__item {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background-image:url(../../img/icons/dott_na.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.dots-list__item--active {
+    background-image:url(../../img/icons/dott_a.png);
+}
+
+.dots-list__item:hover {
+    background-image:url(../../img/icons/dott_a.png);
+}

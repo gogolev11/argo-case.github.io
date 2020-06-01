@@ -1,0 +1,42 @@
+.set-dnm {
+    display: flex;
+
+    z-index: 2;
+    margin-top: 2rem;
+}
+
+.set-dnm__txt {
+    width: 14rem;
+    font-family: UniNeue;
+    font-size: 16px;
+    margin-right: 3rem;
+}
+
+.set-dnm__txt b {
+    font-family: UniNeueHeavy;
+}
+
+.set-dnm__list {
+    line-height: 2rem;
+    list-style-type: none;
+}
+
+.set-dnm__item {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.set-dnm__item::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border: solid 2px #6f89ff;
+    border-radius: 50%;
+    top:0.6rem;
+    left: 0px;
+}
+
+.gumatem-ggl {
+    margin-bottom: 16.5rem;
+}

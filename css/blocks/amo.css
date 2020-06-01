@@ -1,0 +1,99 @@
+.amo {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.amo__inf {
+    width: 25rem;
+}
+.amo-ell{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+    z-index: 0;
+}
+
+.amo-ell-pic {
+    display: block;
+    position: absolute;
+    left: -42.7rem;
+    top:-15.4rem;
+    z-index: 0;
+}
+
+.amo-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.125rem;
+    z-index: 1;
+    
+}
+
+.title-reg--amo {
+    color: white;
+    z-index: 1;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    width: 21rem;
+}
+
+.title-bold--amo {
+    color: white;
+    z-index: 1;
+    line-height: 1.5rem;
+}
+
+.title-bold--amo-data {
+    margin-top: 2rem;
+    width: 19rem;
+}
+
+.title-b--amo {
+    color: white;
+}
+
+.amo__item {
+    color: white;
+    font-family: UniNeue;
+    font-size: 16px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 1rem;
+    padding-bottom: 0.8rem;
+    width: 15rem;
+    line-height: 1.5rem;
+}
+
+.amo__item::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border: solid 2px white;
+    border-radius: 50%;
+    top:0.5rem;
+    left: 0px;
+}
+
+.amo__ell-left, .amo__ell-right{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.amo__ell-left-img {
+    position: absolute;
+    left:-15rem;
+    top: -10rem;
+}
+
+.amo__ell-right-img {
+    position: absolute;
+    right: -10rem;
+    top: 27rem;
+    z-index: 2;
+
+}

@@ -1,0 +1,30 @@
+.title-reg--delivery {
+    width:55.375rem ;
+    text-align: center;
+}
+
+.delivery__process {
+    display: flex;
+    align-items: center;
+    margin-top: 2.875rem;
+    margin-bottom: 2.875rem;
+}
+
+.process__img-block {
+    width: 4.625rem;
+    height: 4.625rem;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 1rem #e7e7e7;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.title-reg--del-proc {
+    display: block;
+    position: relative;
+    width: 28.125rem;
+}

@@ -1,0 +1,50 @@
+.merchant {
+    display: flex;
+    margin-bottom: 2rem;
+    z-index: 2;
+    margin-top: 2rem;
+}
+
+.merchant__txt {
+    width: 13.125rem;
+    font-family: UniNeue;
+    font-size: 16px;
+    margin-right: 3rem;
+}
+
+.merchant__txt b {
+    font-family: UniNeueHeavy;
+}
+
+.merchant__list {
+    line-height: 2rem;
+    list-style-type: none;
+}
+
+.merchant__item {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.merchant__item::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border: solid 2px #6f89ff;
+    border-radius: 50%;
+    top:0.6rem;
+    left: 0px;
+}
+
+.merchant-ell {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+}
+
+.merchant-ell-img {
+    position: absolute;
+    top:-25rem;
+    left:-27rem;
+}

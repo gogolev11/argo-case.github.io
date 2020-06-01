@@ -1,0 +1,16 @@
+.sms {
+    display: flex;
+}
+
+.sms__inf {
+    margin-top: 15rem;
+    width: 36rem;
+    line-height: 1.5rem;
+}
+
+.title-reg--send {
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    width: 35rem;
+}
+

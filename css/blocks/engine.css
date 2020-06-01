@@ -1,0 +1,81 @@
+.cont-b--engine {
+    margin-top:10.31rem;
+    margin-bottom: 12rem;
+}
+
+.treangle-blue--engine {
+    margin-bottom: 4.375rem;
+}
+
+.engine {
+    display: flex;
+    width: 100%;
+}
+
+.engine__ell {
+    display: block;
+    position: relative;
+    height: 0;
+    width: 0;
+    z-index: 0;
+}
+
+.engine__ell-img {
+    display: block;
+    position: absolute;
+    left:-22rem;
+    top:-14.2rem;
+}
+
+.engine__pics {
+    display: flex;
+    align-items: center;
+    height: 16.875rem;
+    z-index: 1;
+}
+
+.engine__pics-block {
+    height: 16.875rem;
+    width: 16.875rem;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.engine__circle-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c86ff;
+    width: 4.125rem;
+    height: 4.125rem;
+    border-radius: 100%;
+    margin-right: 2.125rem;
+    margin-left: 2.125rem;
+}
+
+.engine__changes {
+    list-style-type: none;
+    margin-left:8.125rem;
+}
+
+.engine__changes-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.875rem;
+}
+.icon-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 4.375rem;
+    width: 4.375rem;
+    border-radius: 10px;
+}
+
+.engine__changes-txt {
+    padding-left: 2.625rem;
+}
